@@ -12,3 +12,8 @@ vscode:
     - hookyqr.beautify
     - matt-rudge.auto-open-preview-panel
     - ms-toolsai.jupyter
+ports:
+  - port: 8000
+  - onOpen: open-browser
+  - visibility: public
+  
