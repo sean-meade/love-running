@@ -220,7 +220,7 @@ hr {
 /* footer */
 
 footer {
-    height: 150px;
+    height: 100px;
 }
 
 .social-networks {
@@ -279,6 +279,13 @@ footer {
         padding: 0;
     }
 
+    #times > div {
+        width: 100%;
+        clear: both;
+        height: 150px;
+        padding: 0;
+    }
+
     hr {
         display: none;
     }
@@ -322,5 +329,9 @@ footer {
     .left-about-heading p, .right-about-heading p {
         text-align: center;
         padding: 20px 0;
+    }
+
+    #times {
+        clear: both;
     }
 }
